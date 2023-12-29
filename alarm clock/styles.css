@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-top: 50px;
+    background-image: url('a7.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+
+    /* Text styling for better visibility */
+    color: white; /* Example: white text for better contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: text shadow for readability */
+}
+
+#clock {
+    background-color: purple;
+    background-image: url('a7.jpg');
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: inline-block;
+    width: 300px;
+}
+
+#current-time {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+#alarm-form input, #alarm-form select, #alarm-form button {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 90%;
+}
+
+#alarm-form button {
+    background-color: #007bff;
+    background-image: url('a3.jpg');
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+#alarm-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#alarm-list li {
+    background-color: #e9ecef;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#stop-alarm-btn, #snooze-alarm-btn {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color:blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#snooze-alarm-btn {
+    background-color: #ffc107;
+}
+.delete-alarm-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
